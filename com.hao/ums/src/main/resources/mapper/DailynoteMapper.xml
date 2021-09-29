@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hao.ums.mapper.DaliynoteMapper">
+
+    <insert id="addNewDailyNote">
+        SELECT a.id as value,a.realname as label FROM dream.ums_account a where a.company_id = '1292702716514529281';
+    </insert>
+
+
+</mapper>
